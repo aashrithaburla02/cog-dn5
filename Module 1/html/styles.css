@@ -1,0 +1,105 @@
+/* ================= RESET ================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ================= NAVBAR ================= */
+
+.navbar {
+    background: #222;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+
+/* ================= HEADINGS ================= */
+
+h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin: 20px;
+}
+
+
+/* ================= EVENT CARD ================= */
+
+.eventCard {
+    background: #ffffff;
+    margin: 15px;
+    padding: 15px;
+    border-left: 5px solid blue;
+}
+
+
+/* ================= HIGHLIGHT CLASS ================= */
+
+.highlight {
+    background: yellow;
+    padding: 5px;
+}
+
+
+/* ================= IMAGE BOX ================= */
+
+.imgBox {
+    width: 120px;
+    height: 90px;
+    border: 2px solid gray;
+}
+
+
+/* ================= TABLE ================= */
+
+table {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+}
+
+
+/* ================= FORM ================= */
+
+form {
+    margin: 20px;
+    padding: 15px;
+    background: #fff;
+}
+
+
+/* ================= LINKS ================= */
+
+a:link { color: blue; }
+a:hover { color: red; }
+a:active { color: green; }
+
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .eventCard {
+        margin: 10px;
+    }
+
+    table {
+        width: 100%;
+    }
+}
