@@ -1,0 +1,36 @@
+class Car {
+
+    // Attributes
+    String make;
+    String model;
+    int year;
+
+    // Constructor
+    Car(String make, String model, int year) {
+        this.make = make;
+        this.model = model;
+        this.year = year;
+    }
+
+    // Method to display car details
+    void displayDetails() {
+        System.out.println("Make: " + make);
+        System.out.println("Model: " + model);
+        System.out.println("Year: " + year);
+        System.out.println();
+    }
+}
+
+public class CarDemo {
+
+    public static void main(String[] args) {
+
+        // Creating Car objects
+        Car car1 = new Car("Toyota", "Corolla", 2022);
+        Car car2 = new Car("Honda", "Civic", 2023);
+
+        // Calling method
+        car1.displayDetails();
+        car2.displayDetails();
+    }
+}
